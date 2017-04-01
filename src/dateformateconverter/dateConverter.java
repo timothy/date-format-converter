@@ -86,6 +86,12 @@ public class dateConverter extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * This will convert the user input of a date in mm/dd/yyyy format
+     * in the month dd, yyyy format and shows result in pop box.
+     * If use provides an invalid string an error pop box informs user
+     * @param evt 
+     */
     private void convertButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_convertButtonActionPerformed
 
         String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
