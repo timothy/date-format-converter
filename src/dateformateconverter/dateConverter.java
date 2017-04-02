@@ -5,12 +5,10 @@
  */
 package dateformateconverter;
 
-import java.util.Calendar;
-import java.util.Date;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Java Swing project that will convert to format of a date in mm/dd/yyyy to month dd, yyyy
  * @author tim
  */
 public class dateConverter extends javax.swing.JFrame {
